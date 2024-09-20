@@ -1,0 +1,32 @@
+#wpbody-content {
+  margin-top: 97px;
+}
+
+.mp-be-test-hero {
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 3px solid #00cee6;
+  display: flex;
+  height: 97px;
+  margin-left: -20px;
+  position: fixed;
+  top: 32px;
+  width: 100%;
+}
+
+.mp-logo {
+  height: 80px;
+  margin-left: 0.5rem;
+  width: auto;
+}
+
+@media (max-width: 782px) {
+  .mp-be-test-hero {
+    top: 46px;
+    width: calc(100% + 10px);
+  }
+
+  .mp-logo {
+    height: 50px;
+  }
+}
